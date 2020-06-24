@@ -1,63 +1,74 @@
 body {
     display: block;
-    background-color: lightgray;
+    background-color: #ebebeb;
     text-align: center;
     align-content: center;
     font-family: 'Open Sans', sans-serif;
-    color: gray;
+    color: #7d7d7d;
 }
 /* 
-    
-    Intro style
-
+    ===================
+        Intro style
+    ===================
 */
 .intro {
     display: block;
     border-radius: 5px;
+    box-shadow: 0px 1px 2px #cccccc;
     background-color: white;
-    margin: 10% 25% 5% 25%;
+    margin: 5% 25% 0% 25%;
     padding: 20px 40px 20px 40px;
 }
 /* round picture */
 .profil {
     border-radius: 50%;
-    border: solid 8px lightgray;
+    border: solid 3px #cccccc;
 }
+/* text style */
 h1 {
     font-size: 2em;
-    color: rgb(240, 80, 80);
+    color: #dd5555;
 }
 p {
     text-align: justify;
 }
 /* button Link */
 .link {
-    display: block;
+    background-color: #dd5555;
+    border: none;
     border-radius: 5px;
-    background-color: rgb(240, 80, 80);
-    margin: 0% 35% 0% 35%;
-    padding: 5px 5px 5px 5px;
-    font: 400;
     color: white;
-}
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font: 400;
+  }
 a:link {
     text-decoration: none;
 }
 /*
-
+    ==================
         Logo style
-
+    ==================
 */
-.logo {
+.logolist {
     display: flex;
     flex-direction: row;
     border-radius: 5px;
+    box-shadow: 0px 1px 2px #cccccc;
     background-color: white;
-    margin: 0% 25% 5% 25%;
+    margin: 3% 25% 0% 25%;
     padding: 75px 75px 75px 75px;
     justify-content: center;
 }
-.logo>.test{
+.logo:link {
+    text-decoration: none;
+}
+.logolist>.logo{
     margin: 5% 5% 5% 5%;
 }
 ul li{
@@ -67,21 +78,25 @@ i {
     font-size: 2em;
 }
 a {
-    color: lightgrey;
+    color: #cccccc;
 }
-
 /* 
-
+    =============
         movies
-
+    =============
 */
 .films {
     display: block;
     border-radius: 5px;
+    box-shadow: 0px 1px 2px #cccccc;
     background-color: white;
-    margin: 0% 25% 0% 25%;
+    margin: 3% 25% 5% 25%;
     padding: 20px 40px 20px 40px;
 }
 img {
-    width: 150px;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+}
+span {
+    background-color: #d4d4d4;
 }
